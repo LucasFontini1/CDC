@@ -33,6 +33,7 @@ header ul li.vcEstaAqui a{
 }
 header ul li a:hover{
     background-color: rgb(216, 140, 165);
+    transition: 0.5s;
 }
 
 body{
@@ -40,39 +41,113 @@ body{
     border-radius: 1vw;
 }
 
-main section#hmpg-sec-um{
+main section.sec-introducao{
     background-color: white;
     margin: 1vw 10vw;
     height: 30vw;
     border-radius:2vw ;
 }
-main section#hmpg-sec-um h2{
+main section.sec-introducao h2{
     padding: 2vw 0 0 0 ;
     font-family: 'sour gummy';
     font-size: 4vw;
     text-align: center;
 }
 
-main section#hmpg-sec-um h3{
+main section.sec-introducao h3{
     text-align: center;
     font-size: 2vw;
     font-family: 'comfortaa' ;
     margin-bottom: 3vw;
 }
 
-main section#hmpg-sec-um div.img{
+main section.sec-introducao div.img{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main section#hmpg-sec-um div.img img:first-child{
-    margin-right: 4vw;
+main section.sec-introducao div.img img:first-child{
+    margin-right: 3vw;
+}
+main section.sec-introducao div.img img:nth-child(2){
+    margin-right: 3vw;
 }
 
-main section#hmpg-sec-um div.img img{
+main section.sec-introducao div.img img{
     margin-left: 4vw;
+    border-radius: 2vw;
 }
-main section#hmpg-sec-um div.img h4{
+main section.sec-introducao div.img h4{
     font-size: 6vw;
+}
+
+
+
+main section.geral-sec-dois{
+    background-color: white;
+    margin: 5vw 10vw;
+    height: 30vw;
+    border-radius:2vw ;
+}
+
+main section.geral-sec-dois h2{
+    text-align: center;
+    font-size: 3vw;
+    padding: 2vw 0 0.2vw 0 ;
+    font-family: 'sour gummy';
+}
+
+main section.geral-sec-dois ul{
+    display: flex;
+    justify-content: center;
+    padding: 0 3vw 3vw 3vw;
+}
+
+main section.geral-sec-dois li{
+    text-align: center;
+    padding: 0 2vw;
+}
+
+main section.geral-sec-dois i{
+    font-size: 5vw;
+}
+
+
+main section.geral-sec-dois h3{
+    font-size: 2vw;
+    font-family: 'comfortaa';
+}
+
+main section.geral-sec-dois p{
+    font-size: 1vw;
+}
+
+
+
+
+footer{
+    background-color: palevioletred;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2vw ;
+    margin: 1vw 1vw 1vw 1vw;
+    font-size: 3vw;
+    
+}
+
+footer p{
+    padding: 1vw;
+    font-size: 1.3vw;
+    margin-left: 6vw;
+}
+footer ul{
+    padding: 1vw;
+    margin-right: 5vw;
+    display: flex;
+}
+footer ul li{
+    margin: 0 1vw;
 }
