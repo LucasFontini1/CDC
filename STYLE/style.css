@@ -46,6 +46,7 @@ main section.sec-introducao{
     margin: 1vw 10vw;
     height: 30vw;
     border-radius:2vw ;
+    border: solid 5px palevioletred;
 }
 main section.sec-introducao h2{
     padding: 2vw 0 0 0 ;
@@ -89,6 +90,7 @@ main section.geral-sec-dois{
     margin: 5vw 10vw;
     height: 30vw;
     border-radius:2vw ;
+    border: solid 5px palevioletred;
 }
 
 main section.geral-sec-dois h2{
